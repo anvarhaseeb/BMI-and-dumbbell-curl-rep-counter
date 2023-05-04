@@ -1,0 +1,85 @@
+
+  
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    background: url('bab.png') ;
+    background-size: 100% 100% ;
+    
+    background-repeat: no-repeat;
+  }
+  h2{
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif ;
+  }
+  
+  .form-container {
+
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 230, 230, 0.2);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+  }
+  
+  button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 1rem;
+    transition: background-color 0.2s ease-in-out;
+    width: 150 px;
+  
+    
+  }
+  .wrap
+  {
+    text-align: center;
+    padding: 10px;
+    width: 350px;
+    height: 350px;
+    right: 0px;
+    width: 300px;
+    background: transparent;
+    border: 2px solid rgba(206, 203, 14, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30 px rgba(254, 254, 254, 0.775);
+  }
+  header{
+    left:0px;
+    width:100%;
+     position: fixed; 
+     top:0px;
+     background-color: rgb(241, 203, 34);
+     color: rgb(234, 255, 0);
+  }
+  
+  .d{
+    width: 100%;
+    position:absolute;
+    background-color: black;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    display: flex;
+    align-items: center;
+    color: rgb(246, 244, 244);
+    gap:30px;
+    font-style:bold;
+    word-spacing: px;
+    float: right;
+  }

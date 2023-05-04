@@ -1,0 +1,56 @@
+.container2 {
+   
+    background: url('https://cdna.artstation.com/p/assets/images/images/000/579/332/small/vladislav-ociacia-robot-dumbell-6.jpg?1427386659') no-repeat center center fixed;
+    width: 300px;
+    padding: 10px;
+    height: 500px;
+    display: block;
+    box-shadow: 20px 20px 10px black;
+    border: width 20px;
+    border-style: outset;
+    border-color: rgb(240, 226, 175);
+  }
+  h1{
+    color: #474646;
+  }
+  
+  .navbar {
+    background-color: rgba(255, 255, 255, 0.5);
+    position: fixed;
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 10;
+  }
+  
+  .navbar-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-item {
+    margin: 0 1rem;
+  }
+  
+  .navbar-item a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+input {
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  font-size: 1rem;
+  padding: 10px;
+  width: 200px;
+}
+  
+.rt{
+  position: absolute;
+  top:10px;
+  right: 8px;
+}
