@@ -1,6 +1,6 @@
 # BMI-and-dumbbell-curl-rep-counter
 The instrucions:
-You can edit .env file for setting new firebase databases.
+You can edit .env file for setting new firebase database.
 
 The UI of the web-app:
 ![Screenshot_20230228_100014](https://user-images.githubusercontent.com/56551899/236662131-8c2f75c6-b670-4ad4-8117-bb8cbfc08128.png)
